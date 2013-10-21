@@ -1,0 +1,1 @@
+funka nu, din fitta!
