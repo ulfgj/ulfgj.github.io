@@ -1,1 +1,1 @@
-funka nu, din fitta!
+funka nu, din fitta :)
