@@ -1,3 +1,4 @@
 name: XR Officiel
 markdown: redcarpet
 pygments: false
+permalink: /:title
