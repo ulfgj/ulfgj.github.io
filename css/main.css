@@ -13,10 +13,11 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
+  color: white;
   text-align: center;
+  background: #000 url("../images/red-xr-dark-bg.jpg") no-repeat fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,9 +26,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a         { color: #ccc; }
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:visited { color: #ccc; }
 
 /*****************************************************************************/
 /*
@@ -61,6 +62,7 @@ ul.posts span {
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
+  position: relative; /* context for absolute positioning*/
 }
 
 .site .header a {
@@ -74,21 +76,22 @@ ul.posts span {
 }
 
 .site .header h1.title a {
-  /*color: #a00;*/
-  color: hotpink;
+  color: #a00;
+  font-size: 200%;
 }
 
 .site .header h1.title a:hover {
-  color: #000;
+  color: olive;
 }
 
 .site .header a.extra {
   color: #aaa;
   margin-left: 1em;
+  font-size: 120%;
 }
 
 .site .header a.extra:hover {
-  color: #000;
+  color: olive;
 }
 
 .site .meta {
@@ -121,6 +124,23 @@ ul.posts span {
 .site .footer .rss img {
   border: 0;
 }
+
+.social li {
+  height: 58px;
+  width: 60px;
+  background: url("../images/social-icons-color.png") no-repeat;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  opacity: .5;
+  text-indent: -999px;
+  transition: opacity .5s ease-in-out;
+}
+.social li:hover { opacity: 1; }
+
+.social .fb   { background-position: 0 0; right: 160px;}
+.social .tw   { background-position: -60px 0; right: 80px;}
+.social .mail { background-position: -120px 0;}
 
 /*****************************************************************************/
 /*
