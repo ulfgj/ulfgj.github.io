@@ -58,11 +58,14 @@ ul.posts span {
 
 .site {
   font-size: 115%;
+  font-family: "tahoma";
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  /*margin: 3em auto 2em;*/
+  margin: 100px 0 auto 385px;
   line-height: 1.5em;
   position: relative; /* context for absolute positioning*/
+  left: 0px;
 }
 
 .site .header a {
@@ -133,7 +136,7 @@ ul.posts span {
   position: absolute;
   right: 0;
   opacity: .5;
-  text-indent: -999px;
+  text-indent: -9999px;
   transition: opacity .5s ease-in-out;
 }
 .social li:hover { opacity: 1; }
