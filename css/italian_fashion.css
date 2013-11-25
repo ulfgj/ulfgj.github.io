@@ -1,0 +1,26 @@
+body {
+  background: white url(../images/sideshot-bg-big.jpg) top right no-repeat fixed;
+  background-size: contain;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  color: white;
+  text-align: left;
+}
+
+.site {
+  margin: 35px 0 auto 35px;
+}
+
+.title a {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+a         { color: #000; }
+a:hover   { color: #ccc; }
+a:visited { color: #000; }
+
+.logo {
+  border-bottom: 15px solid #222;
+}
