@@ -11,16 +11,21 @@ body {
   margin: 35px 0 auto 35px;
 }
 
-/* nav */
+/* this is actually the nav items... could be `nav a` */
 .site .header a.extra {
   color: #888;
   font-size: 180%;
+  font-weight: 300;
   margin-left: 0;
   margin-right: 20px;
-  font-family: 'Domine', serif;
+  font-family: 'Open Sans', serif;
 
 }
 
+.site .footer {
+  border-top: none;
+
+}
 .title a {
   text-indent: 100%;
   white-space: nowrap;
