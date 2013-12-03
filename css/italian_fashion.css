@@ -8,18 +8,24 @@ body {
 }
 
 .site {
-  margin: 35px 0 auto 35px;
+  margin: 35px 0 auto 50px;
 }
 
 /* this is actually the nav items... could be `nav a` */
-.site .header a.extra {
+.site .header a.extra,
+nav a.extra {
   color: #888;
   font-size: 180%;
   font-weight: 300;
   margin-left: 0;
   margin-right: 20px;
   font-family: 'Open Sans', serif;
+  text-decoration: none;
+  /*text-align: left;*/
+}
 
+nav.social {
+  margin-top: 30px;
 }
 
 .site .footer {
@@ -39,4 +45,21 @@ a:visited { color: #000; }
 
 .logo {
   width:80%;
+}
+
+p.copyright a {
+  font-family: 'Patrick Hand SC', helvetica, arial, cursive, sans-serif;
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 8px;
+  color: #aaa;
+  transition: background-color .33s ease-in, color .33s ease-in;
+}
+
+p.copyright a:hover {
+  background-color: slategray;
+  color: white;
 }

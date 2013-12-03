@@ -16,6 +16,7 @@
         <!-- Google fonts -->
         <!-- <link href='http://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'> -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
 
     </head>
     <body>
@@ -23,7 +24,7 @@
         <div class="site">
           <div class="header">
             <h1 class="title"><a href="/"><img class="logo" src="../images/sideshot-logo.jpg" alt="{{ site.name }}" title="{{ site.name }}"></a></h1>
-            <nav>
+            <nav class="main-nav">
               <a class="extra" href="/">about</a>
               <a class="extra" href="/">musique</a>
               <a class="extra" href="/">tour</a>
@@ -33,22 +34,30 @@
 
           </div>
 
-<!-- no want this at the moment...
+ <!-- no want this at the moment... -->
           {{ content }}
--->
+
           <div class="footer">
             <div class="contact">
               <p>
                 <a href="http://www.reverbnation.com/xrlive">XR on Reverbnation</a>
               </p>
-              <p>
-                <a href="http://www.facebook.com/xrfanpage">XR on Facebook</a>
+            </div><!--/.footer-->
+
+              <p class="copyright">
+                <a href="/">2014 &copy; ulf.gj</a>
               </p>
-              <p>
-                2013 &copy; ulf.gj
-              </p>
-            </div>
-          </div>
+
+          </div><!--/.site-->
+
+
+            <nav class="social">
+              <a class="extra" href="http://www.facebook.com/xrfanpage">facebook</a>
+              <a class="extra" href="http://www.twitter.com/xrofficiel">twitter</a>
+              <a class="extra" href="/">iTunes</a>
+              <!-- <a class="extra" href="/">soundcloud</a> -->
+              <a class="extra" href="/">youtube</a>
+            </nav>
         </div>
 
 
