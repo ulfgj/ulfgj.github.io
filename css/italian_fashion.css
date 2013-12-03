@@ -11,6 +11,10 @@ body {
   margin: 35px 0 auto 50px;
 }
 
+.site .header {
+  margin-bottom: 30px;
+}
+
 /* this is actually the nav items... could be `nav a` */
 .site .header a.extra,
 nav a.extra {
