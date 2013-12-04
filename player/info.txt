@@ -1,0 +1,41 @@
+http://flash-mp3-player.net/players/mini
+
+# Documentation
+
+Here is an example of HTML usage of the player:
+
+<object type="application/x-shockwave-flash" data="player_mp3_mini.swf" width="200" height="20">
+     <param name="movie" value="player_mp3_mini.swf" />
+     <param name="bgcolor" value="#ff0000" />
+     <param name="FlashVars" value="mp3=test.mp3" />
+</object>
+
+and a custom color example:
+
+<object type="application/x-shockwave-flash" data="http://flash-mp3-player.net/medias/player_mp3_mini.swf" width="200" height="20">
+    <param name="movie" value="http://flash-mp3-player.net/medias/player_mp3_mini.swf" />
+    <param name="bgcolor" value="#ffffff" />
+    <param name="FlashVars" value="mp3=http%3A//flash-mp3-player.net/medias/another_world.mp3&amp;bgcolor=ffffff&amp;loadingcolor=ffff80&amp;buttoncolor=cccccc" />
+</object>
+
+
+# Parameters
+
+Name          Description
+----          ----
+mp3           The URL of the MP3 file to be played.
+autoplay      1 to auto-play
+loadingcolor  The color of loading bar
+buttoncolor   The color of the buttons
+slidercolor   The color of the player bar
+byteslimit    If it is a mp3 streaming, the stream will restart at the bytes limit, for prevent overload.
+
+
+# Keyboard shortcuts
+
+Key     Description
+----    ----
+P       Play/Pause
+S       Stop
+left    5 seconds backward
+right   5 seconds forward

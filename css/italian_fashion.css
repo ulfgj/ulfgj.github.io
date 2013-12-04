@@ -26,14 +26,15 @@ nav a.extra {
   /*text-align: left;*/
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  /*transition: transform .5s cubic-bezier(0.75, 0.25, 0.25, 0.75);*/
-  -webkit-transition: all .35s ease-in-out;
+  display: inline-block;
+  -webkit-transition: all .45s cubic-bezier(0.75, 0.25, 0.25, 0.75);
+  /*-webkit-transition: all .35s ease-in-out;*/
 
 }
 .site .header a.extra:hover,
 nav a:hover {
-  color:#eee;
-  -webkit-transform: scale(1.05);
+  color:#ddd;
+  -webkit-transform: scale(1.5);
 }
 
 nav.social {
@@ -74,6 +75,26 @@ p.copyright a {
 p.copyright a:hover {
   background-color: slategray;
   color: white;
+}
+
+.flash-player {
+/*  position: relative;
+  top: 0;
+  left: 0;*/
+  width: 320px;
+  background: #444;
+  height: 16px;
+}
+.audio-title {
+  display: inline-block; /*why do they have to be blocks?..*/
+  font-size: 10px;
+  -webkit-transform: translate(0,-5px);
+     -moz-transform: translate(0,-5px);
+      -ms-transform: translate(0,-5px);
+       -o-transform: translate(0,-5px);
+          transform: translate(0,-5px);
+  color: #777;
+  
 }
 
 /*
