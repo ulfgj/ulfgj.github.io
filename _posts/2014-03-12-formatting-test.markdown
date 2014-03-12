@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "formatting test"
-date: 2013-10-24 17:45:00
+date: 2014-03-12 17:45:00
 ---
 
 this is a paragraph.
