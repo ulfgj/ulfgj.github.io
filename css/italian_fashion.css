@@ -134,7 +134,17 @@ a.back-link {
   background-image: url('/images/arrow-back.png');
   background-position: 0 0;
   text-indent: -9999px;
+  -webkit-transition: all .45s cubic-bezier(0.75, 0.25, 0.25, 0.75);
+  -moz-transition: all .45s cubic-bezier(0.75, 0.25, 0.25, 0.75);
+  -o-transition: all .45s cubic-bezier(0.75, 0.25, 0.25, 0.75);
+  -ms-transition: all .45s cubic-bezier(0.75, 0.25, 0.25, 0.75);
+  transition: all .45s cubic-bezier(0.75, 0.25, 0.25, 0.75);
 }
 a.back-link:hover {
   background-position: 0px 19px;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
 }
