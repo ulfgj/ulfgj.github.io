@@ -108,7 +108,7 @@ p.copyright a:hover {
 }
 
 .audio-title {
-  display: inline-block; /*why do they have to be blocks?..*/
+  display: inline-block; /*why do they have to be blocks?...*/
   font-size: 10px;
   -webkit-transform: translate(0,-5px);
      -moz-transform: translate(0,-5px);
@@ -125,4 +125,7 @@ layout for single_post page
 
 .post {
   color: green;
+}
+.back-link {
+  background:url('../images/arrow-back.png') no-repeat;
 }
