@@ -131,7 +131,7 @@ a.back-link {
   float: right;
   width: 39px;
   height: 18px;
-  background-image: url('images/arrow-back.png');
+  background-image: url('../../images/arrow-back.png');
   background-position: 0 0;
   text-indent: -9999px;
 }
