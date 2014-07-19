@@ -129,12 +129,12 @@ layout for single_post page
 a.back-link {
   display: block;
   float: right;
-  width: 39px;
+  width: 37px;
   height: 18px;
   background-image: url('/images/arrow-back.png');
   background-position: 0 0;
   text-indent: -9999px;
 }
 a.back-link:hover {
-  background-position: 18px 0;
+  background-position: 0px 19px;
 }
