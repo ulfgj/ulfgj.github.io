@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Les CD's sont arrivés!"
+title:  "Les CD's sont arriv&eacute;s!"
 date:   2014-07-10 12:00:00
 ---
 
-Les CD's sont arrivés, bientôt disponibles en pré-commande :)
+Les CD's sont arriv&eacute;s, bient&ocirc;t disponibles en pr&eacute;-commande :)
