@@ -126,6 +126,14 @@ layout for single_post page
 .post {
   color: green;
 }
-.back-link {
-  background:url('../images/arrow-back.png') no-repeat;
+a.back-link {
+  display: block;
+  width: 39px;
+  height: 18px;
+  background-image: url('../images/arrow-back.png');
+  background-position: 0 0;
+  text-indent: -9999px;
+}
+a.back-link:hover {
+  background-position: 18px 0;
 }
