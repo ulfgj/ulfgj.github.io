@@ -131,8 +131,7 @@ a.back-link {
   float: right;
   width: 37px;
   height: 18px;
-  background-image: url('/images/arrow-back.png');
-  background-position: 0 0;
+  background: url('/images/arrow-back.png') no-repeat;
   text-indent: -9999px;
   -webkit-transition: all .45s cubic-bezier(0.75, 0.25, 0.25, 0.75);
   -moz-transition: all .45s cubic-bezier(0.75, 0.25, 0.25, 0.75);
@@ -141,7 +140,7 @@ a.back-link {
   transition: all .45s cubic-bezier(0.75, 0.25, 0.25, 0.75);
 }
 a.back-link:hover {
-  background-position: 0px 19px;
+  /*background-position: 0px 19px;*/
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
   -o-transform: scale(1.5);
