@@ -1,5 +1,6 @@
 name: XR Officiel
 markdown: redcarpet
-pygments: false
+# pygments: false
+highlighter: rouge
 permalink: /:title
 paginate: 3
