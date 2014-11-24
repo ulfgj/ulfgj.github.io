@@ -3,4 +3,4 @@ markdown: redcarpet
 # pygments: false
 highlighter: rouge
 permalink: /:title
-paginate: 3
+paginate: 5
