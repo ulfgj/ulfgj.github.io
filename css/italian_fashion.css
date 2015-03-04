@@ -44,6 +44,11 @@ nav a:hover {
   transform: scale(1.5);
 }
 
+nav a.active {
+  border-bottom: 2px solid #bbb;
+  padding-bottom: 7px;
+}
+
 nav.social {
   margin-top: 30px;
 }
@@ -71,7 +76,8 @@ a:hover   { color: #ccc; }
 }
 
 
-h2 { font-size: 22px; font-weight: bold;}
+h2 { font-size: 22px; font-weight: bold; }
+.page-title { text-transform: capitalize;}
 
 p.copyright a {
   font-family: 'Patrick Hand SC', helvetica, arial, cursive, sans-serif;
