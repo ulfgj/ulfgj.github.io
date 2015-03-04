@@ -27,12 +27,13 @@ title: XR Officiel - Rock Français, Son Neuf
     <p>data list test:</p>
 <!-- 
     {% for gig in site.data.gig-list %}
-    <p><a href="{{GIG.URL}}" target="_blank"><strong>{{GIG.VENUE}}</strong></a> &nbsp;/&nbsp; {{GIG.DATE}}</p>
+    <p><a href="{{GIG.URL}}" target="_blank"><strong>{{GIG.VENUE}}</strong></a> &nbsp;/&nbsp; {{GIG.DATE}} <br />
     <span class="gig_addr">{{GIG.ADDRESS}}</span>
     {% endfor %}
  -->
     {% for gig in site.data.gig-list %}
-    <p>{{gig.name}}</strong></a> &nbsp;/&nbsp; {{gig.github}}</p>
+    <p>{{gig.venue}}</strong></a> &nbsp;/&nbsp; {{gig.date}}</p>
+    <span class="gig_addr">{{gig.address}}</span>
     {% endfor %}
 
 </div>
