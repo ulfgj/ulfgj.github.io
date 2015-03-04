@@ -149,7 +149,7 @@ a.back-link:hover {
 }
 
 /*tour.html specifics*/
-#home.tour p span {
+.gig_addr {
   color: #888;
   font-size: 50%;
 }
