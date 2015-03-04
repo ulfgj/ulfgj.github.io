@@ -61,7 +61,7 @@ nav.social {
 
 a         { color: #000; }
 a:hover   { color: #ccc; }
-a:visited { color: #000; }
+/*a:visited { color: #000; }*/
 
 .logo {
   width:80%;
