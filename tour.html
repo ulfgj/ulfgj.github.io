@@ -32,8 +32,10 @@ title: XR Officiel - Rock Français, Son Neuf
     {% endfor %}
  -->
     {% for gig in site.data.gig-list %}
-    <p>{{gig.venue}}</strong></a> &nbsp;/&nbsp; {{gig.date}}</p>
-    <span class="gig_addr">{{gig.address}}</span>
+    <p>
+        <a href="{{gig.url}}" target="_blank">{{gig.venue}}</strong></a> &nbsp;/&nbsp; {{gig.date}}
+        <span class="gig_addr">{{gig.address}}</span>
+    </p>
     {% endfor %}
 
 </div>
