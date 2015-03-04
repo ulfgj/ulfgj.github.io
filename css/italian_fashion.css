@@ -59,9 +59,8 @@ nav.social {
   border-bottom: 16px solid #444;
 }
 
-a         { color: #000; }
+a:link, a:visited  { color: #000; }
 a:hover   { color: #ccc; }
-/*a:visited { color: #000; }*/
 
 .logo {
   width:80%;
