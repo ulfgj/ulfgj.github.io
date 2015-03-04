@@ -147,3 +147,9 @@ a.back-link:hover {
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
+
+/*tour.html specifics*/
+#home.tour p span {
+  color: #888;
+  font-size: 50%;
+}
