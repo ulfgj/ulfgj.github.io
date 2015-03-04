@@ -1,4 +1,8 @@
-- name: first gig
-    address: in my pants
-    date: now
-    fee: free
+- name: Tom Preston-Werner
+  github: mojombo
+
+- name: Parker Moore
+  github: parkr
+
+- name: Liu Fengyun
+  github: liufengyun
