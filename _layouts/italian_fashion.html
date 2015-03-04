@@ -1,81 +1,79 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <link rel='shortcut icon' type='image/x-icon' href='/images/favicon.ico' />
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel='shortcut icon' type='image/x-icon' href='/images/favicon.ico' />
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/italian_fashion.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/italian_fashion.css">
 
-        <!-- Google fonts -->
-        <!-- <link href='http://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'> -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+  <!-- Google fonts -->
+  <!-- <link href='http://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'> -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
 
-    </head>
-    <body>
+</head>
+<body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/"><img class="logo" src="../images/sideshot-logo-png8-128color.png" alt="{{ site.name }}" title="{{ site.name }}"></a>
+  <div class="site">
+    <div class="header">
+      <h1 class="title"><a href="/"><img class="logo" src="../images/sideshot-logo-png8-128color.png" alt="{{ site.name }}" title="{{ site.name }}"></a>
 
-              <div class="flash-player">
-                <object type="application/x-shockwave-flash" data="http://flash-mp3-player.net/medias/player_mp3_mini.swf" width="160" height="16">
-                <param name="movie" value="http://flash-mp3-player.net/medias/player_mp3_mini.swf"/>
-                <param name="wmode" value="transparent" />
-                <param name="FlashVars" value="mp3=/player/XR-TLM-sample.mp3&amp;loadingcolor=ffff80&amp;buttoncolor=cccccc&amp;slidercolor=cccccc" />
-                </object>
-                <!-- <span class="audio-title">possible trackname here</span> -->
-              </div>
-
-            </h1>
-            <nav class="main-nav">
-              <a class="extra" href="/bio.html">bio</a>
-              <a class="extra" href="http://xrofficiel.bandcamp.com">musique</a>
-              <a class="extra" href="/tour.html">tour</a>
-              <a class="extra" href="/not_avaliable.html">merch</a>
-              <a class="extra" href="/contact.html">contact</a>
-            </nav>
-
-          </div>
-
- <!-- no want this at the moment... -->
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                <!-- <a href="http://www.reverbnation.com/xrlive">XR on Reverbnation</a> -->
-              </p>
-            </div><!--/.footer-->
-
-
-          </div><!--/.site-->
-
-
-            <nav class="social">
-              <a class="extra" href="https://www.facebook.com/xrofficiel" target="_blank">facebook</a>
-              <a class="extra" href="http://www.twitter.com/xrofficiel" target="_blank">twitter</a>
-              <a class="extra" href="https://itunes.apple.com/be/album/xr/id866126277" target="_blank">iTunes</a>
-              <!-- <a class="extra" href="/">soundcloud</a> -->
-              <a class="extra" href="https://www.youtube.com/channel/UC0wBinojpkoQsfcTrDg-Qvw" target="_blank">youtube</a>
-            </nav>
-
-              <p class="copyright">
-                <a href="/">2014 &copy; XR</a> &nbsp; <a href="/">WEB BY: ULF.GJ -&gt; EGG&amp;FORK</a>
-              </p>
-
+        <div class="flash-player">
+          <object type="application/x-shockwave-flash" data="http://flash-mp3-player.net/medias/player_mp3_mini.swf" width="160" height="16">
+            <param name="movie" value="http://flash-mp3-player.net/medias/player_mp3_mini.swf"/>
+            <param name="wmode" value="transparent" />
+            <param name="FlashVars" value="mp3=/player/XR-TLM-sample.mp3&amp;loadingcolor=ffff80&amp;buttoncolor=cccccc&amp;slidercolor=cccccc" />
+          </object>
+          <!-- <span class="audio-title">possible trackname here</span> -->
         </div>
 
-<script type="text/javascript">var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-31299715-4']); _gaq.push(['_trackPageview']); (function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script>
+      </h1>
+      <nav class="main-nav">
+        <a class="extra" href="/bio.html">bio</a>
+        <a class="extra" href="http://xrofficiel.bandcamp.com">musique</a>
+        <a class="extra" href="/tour.html">tour</a>
+        <a class="extra" href="/not_avaliable.html">merch</a>
+        <a class="extra" href="/contact.html">contact</a>
+      </nav>
+
+    </div><!--/.header-->
+
+    {{ content }}
 
 
-    </body>
+<!--    <div class="footer">
+      <div class="contact">
+        <p>
+          <!~~ <a href="http://www.reverbnation.com/xrlive">XR on Reverbnation</a> ~~>
+        </p>
+      </div><!~~/.contact~~>
+    </div><!~~/.footer~~>-->
+
+
+    <nav class="social">
+      <a class="extra" href="https://www.facebook.com/xrofficiel" target="_blank">facebook</a>
+      <a class="extra" href="http://www.twitter.com/xrofficiel" target="_blank">twitter</a>
+      <a class="extra" href="https://itunes.apple.com/be/album/xr/id866126277" target="_blank">iTunes</a>
+      <!-- <a class="extra" href="/">soundcloud</a> -->
+      <a class="extra" href="https://www.youtube.com/channel/UC0wBinojpkoQsfcTrDg-Qvw" target="_blank">youtube</a>
+    </nav>
+
+    <p class="copyright">
+      <a href="/">2014 &copy; XR</a> &nbsp; <a href="/">WEB BY: ULF.GJ -&gt; EGG&amp;FORK</a>
+    </p>
+
+  </div><!--/,site -->
+
+  <script type="text/javascript">var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-31299715-4']); _gaq.push(['_trackPageview']); (function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script>
+
+
+</body>
 </html>
