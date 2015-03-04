@@ -1,6 +1,9 @@
 name: XR Officiel
 markdown: redcarpet
 # pygments: false
-highlighter: rouge
+# highlighter: rouge
 permalink: /:title
 paginate: 5
+
+collections:
+- gig_list
