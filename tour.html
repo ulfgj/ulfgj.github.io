@@ -12,31 +12,16 @@ title: XR Officiel - Rock Français, Son Neuf
 <div id="home tour">
     <h4>Tour</h4>
 
-    <p>
-        <a href="http://www.facebook.com/events/1407407912895070/" target="_blank"><strong>The Black Sheep, Brussels</strong></a> &nbsp;/&nbsp; Friday 6 March 21:30<br />
-        <span class="gig_addr">Chausée de Boondael 8, 1050 Brussels, Belgium</span>
-    </p>
-
-    <p>
-    <a href="http://www.facebook.com/events/1575553179324857/" target="_blank"><strong>Le café des artistes, Braine-l'Alleud</strong></a> &nbsp;/&nbsp; Friday 13 March 21:00<br />
-        <span class="gig_addr">4 rue jules Hans, 1420 Braine-l'Alleud, Belgium</span>
-    </p>
-
-    <hr />
-
-    <p>data list test:</p>
-<!-- 
+ 
     {% for gig in site.data.gig-list %}
-    <p><a href="{{GIG.URL}}" target="_blank"><strong>{{GIG.VENUE}}</strong></a> &nbsp;/&nbsp; {{GIG.DATE}} <br />
-    <span class="gig_addr">{{GIG.ADDRESS}}</span>
-    {% endfor %}
- -->
-    {% for gig in site.data.gig-list %}
+ 
     <p>
-        <a href="{{gig.url}}" target="_blank">{{gig.venue}}</strong></a> &nbsp;/&nbsp; {{gig.date}}
-        <span class="gig_addr">{{gig.address}}</span>
+        <a href="{{ gig.url }}" target="_blank"><strong>{{ gig.venue }}</strong></a> &nbsp;/&nbsp; {{ gig.date }} <br />
+        <span class="gig_addr">{{ gig.address }}</span>
     </p>
+ 
     {% endfor %}
+
 
 </div>
 
