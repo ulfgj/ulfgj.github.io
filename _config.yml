@@ -4,6 +4,3 @@ markdown: redcarpet
 # highlighter: rouge
 permalink: /:title
 paginate: 5
-
-collections:
-- gig_list

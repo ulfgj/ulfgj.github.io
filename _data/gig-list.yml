@@ -1,0 +1,9 @@
+- name: first gig
+    address: in my pants
+    date: now
+    fee: free
+
+- name: second gig
+    address: 123 street, funkytown
+    date: tomorrow
+    fee: n/a
