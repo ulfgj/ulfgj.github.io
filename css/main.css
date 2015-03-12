@@ -16,8 +16,9 @@ body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   color: white;
-  text-align: center;
-  background: #000 url("../images/red-xr-dark-bg.jpg") no-repeat fixed;
+  /*text-align: center;*/
+  /*background: #000 url("../images/red-xr-dark-bg.jpg") no-repeat fixed;*/
+  background: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
