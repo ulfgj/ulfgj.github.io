@@ -1,6 +1,0 @@
-name: ulf gjerdingen
-markdown: redcarpet
-# pygments: false
-# highlighter: rouge
-permalink: /:title
-paginate: 5
