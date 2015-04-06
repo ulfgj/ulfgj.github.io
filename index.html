@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+---
+layout: default
+title: Your New Jekyll Site
+---
 
-    <h1>ulfgjwebsiteunderconstructionbeatch.</h1>
-    
-</body>
-</html>
+<div id="home">
+  <h1>Whatever, bro...</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
