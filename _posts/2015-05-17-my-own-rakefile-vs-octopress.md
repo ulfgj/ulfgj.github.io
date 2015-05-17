@@ -7,19 +7,18 @@ categories: jekyll update
 
 i need to fix this. need a faster way to create posts.
 
-rake new_show["title"]
-rake new_event["title"]
+
+`rake new_show["title"]`
+`rake new_event["title"]`
 
 or something like this...
 
 got something but it doesn't seem to work...
 
-```
-[ master ] $ rake post --trace
-** Invoke post (first_time)
-** Execute post
-rake aborted!
-NoMethodError: undefined method `[]' for nil:NilClass
-```
-
+    [ master ] $ rake post --trace
+    ** Invoke post (first_time)
+    ** Execute post
+    rake aborted!
+    NoMethodError: undefined method `[]' for nil:NilClass
+    
 blaarg....
