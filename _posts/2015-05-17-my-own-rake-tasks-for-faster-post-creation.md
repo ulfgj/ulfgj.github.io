@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "my own rake tasks"
+title:  "my own rake tasks for faster post creation"
 date:   2015-05-17 21:35:30
 categories: jekyll update
 ---
@@ -17,3 +17,5 @@ in the `_config.yml` i add the lines:
 
 
 i can add different tasks for different post types which could have different front matter if needed. booya.
+
+oh yeah, i *could* start using [Octopress](http://octopress.org/), cus it's awesome but i'm trying my own ways first, aight...
