@@ -33,5 +33,6 @@
     display: none;
   }
   .social-sidebar {
+    display: inline-block;
   }
 }
