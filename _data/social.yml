@@ -1,0 +1,27 @@
+- name: facebook
+  url: http://www.facebook.com/ulf.gj
+  image: /images/facebook.png
+
+- name: twitter
+  url: http://twitter.com/ulfgj
+  image: /images/twitter.png
+
+- name: linkedIn
+  url: http://www.linkedin.com/profile/view?id=316372158
+  image: /images/linkedin.png
+
+- name: youtube
+  url: http://www.youtube.com/user/ulfgj
+  image: /images/youtube.png
+
+- name: deviantart
+  url: http://ulfdotgj.deviantart.com/
+  image: /images/deviantart.png
+
+- name: pinterest
+  url: http://www.pinterest.com/ugjerdingen/
+  image: /images/pinterest.png
+
+- name: rss
+  url: atom.xml
+  image: /images/rss.png

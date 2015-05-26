@@ -30,6 +30,8 @@
 
 @media (max-width: 48em) {
   .social {
-    position: relative;
+    display: none;
+  }
+  .social-sidebar {
   }
 }
