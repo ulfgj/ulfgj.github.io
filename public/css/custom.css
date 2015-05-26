@@ -12,18 +12,24 @@
   border-radius: 0;
   margin-left: 20px;
   opacity:.5;
-     -moz-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
-          transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 .social a:hover img {
   opacity:1;
   -webkit-transform: rotate(-12deg);
-          transform: rotate(-12deg);
+  transform: rotate(-12deg);
 }
 
 .sidebar-extras img {
-    margin: 30px auto 0;
-    border-radius: 0;
+  margin: 30px auto 0;
+  border-radius: 0;
   
+}
+
+@media (max-width: 48em) {
+   .social img {
+    display: block;
+   }
 }
