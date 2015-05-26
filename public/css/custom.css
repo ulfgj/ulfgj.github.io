@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+}
+.social {
+  /*float: left;*/
+  position: absolute;
+  top: 0;
+  right: 0;;
+}
+.social img {
+  display: inline-block;
+  border-radius: 0;
+  margin-left: 20px;
+  opacity:.5;
+     -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;
+}
+.social a:hover img {
+  opacity:1;
+  -webkit-transform: rotate(-12deg);
+          transform: rotate(-12deg);
+}

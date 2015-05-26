@@ -1,9 +1,22 @@
-name: ulf gjerdingen
-markdown: kramdown
-# highlighter: pygments or rouge or null
-exclude: ["node_modules", "gulpfile.js", "package.json", "rakefile"]
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           /:year-:month-:day/:title.html
+relative_permalinks: false
 
-# rakefile stuff
-post:
-  template: _post.txt
-  extension: md
+# Setup
+title:               ulf.gjerdingen
+tagline:             ...
+description:         "c'est le moi..."
+url:                 ''
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              ulf gjerdingen
+  url:               https://twitter.com/ulfgj
+  email:             pagehead@gmail.com
+
+# Custom vars
+version:             1.0.1
