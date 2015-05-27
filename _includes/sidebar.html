@@ -28,7 +28,22 @@
     <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
     <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
   </nav>
-
+  <nav class="social-sidebar-nav">
+    <ul class="social-sidebar">  
+      {% for social in site.data.social  %}
+      {% if social.row == 1 %}
+      <li><a href="{{ social.url }}" target="_blank"><img src="{{ social.image_white }}" alt="{{ social.name }}"></a></li>
+      {% endif%}
+      {% endfor %}
+    </ul>
+    <ul class="social-sidebar">
+      {% for social in site.data.social  %}
+      {% if social.row == 2 %}
+      <li><a href="{{ social.url }}" target="_blank"><img src="{{ social.image_white }}" alt="{{ social.name }}"></a></li>
+      {% endif%}
+      {% endfor %}
+    </ul>
+  </nav>
   <div class="sidebar-extras">
     <img src="images/ulf-old-school-squares-small.jpg" alt="mini-me">
   </div>

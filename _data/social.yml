@@ -1,27 +1,47 @@
 - name: facebook
   url: http://www.facebook.com/ulf.gj
   image: /images/facebook.png
+  image_white: images/facebook_white.png
+  row: 1
 
 - name: twitter
   url: http://twitter.com/ulfgj
   image: /images/twitter.png
+  image_white: images/twitter_white.png
+  row: 1
+
+- name: github
+  url: http://github.com/ulfgj
+  image: /images/github.png
+  image_white: images/github_white.png
+  row: 1
 
 - name: linkedIn
   url: http://www.linkedin.com/profile/view?id=316372158
   image: /images/linkedin.png
+  image_white: images/linkedIn_white.png
+  row: 1
 
 - name: youtube
   url: http://www.youtube.com/user/ulfgj
   image: /images/youtube.png
+  image_white: images/youtube_white.png
+  row: 2
 
 - name: deviantart
   url: http://ulfdotgj.deviantart.com/
   image: /images/deviantart.png
+  image_white: images/deviantart_white.png
+  row: 2
 
 - name: pinterest
   url: http://www.pinterest.com/ugjerdingen/
   image: /images/pinterest.png
+  image_white: images/pinterest_white.png
+  row: 2
 
 - name: rss
   url: atom.xml
   image: /images/rss.png
+  image_white: images/rss_white.png
+  row: 2
