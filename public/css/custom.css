@@ -32,9 +32,7 @@ img {
 .social-sidebar li:last-of-type { margin-right: 0; }
 .social-sidebar a img { width: 75%;}
 
-/*.sidebar-extras img { margin: 25px auto 0; }*/ /*under sidebar content*/
-.sidebar-extras img { position: absolute; bottom: 0; left: 35px; } /*bottom centered-ish*/
-
+.sidebar-extras img { margin: 25px auto 0; }
 
 @media (max-width: 48em) {
   .social             { display: none; }
