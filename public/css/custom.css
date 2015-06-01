@@ -1,8 +1,10 @@
 ::selection {
   background: #E3A232; /* WebKit/Blink Browsers */
+  color: white;
 }
 ::-moz-selection {
   background: #E3A232; /* Gecko Browsers */
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
