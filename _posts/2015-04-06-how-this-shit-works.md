@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "how this shit works."
-date:   2015-04-06 18:06:00
+title: how this shit works.
+date: {}
+published: true
 ---
+
 
 ## so... basically this is it:
 - make sure u have `node_modules` in your `.gitignore`
@@ -11,5 +13,5 @@ date:   2015-04-06 18:06:00
 - run `gulp` to open up `localhost:3000` and start editing what u need
 - if all is ok, just commit to the repo and sync.
 
-# but...
-if you have all repos saved locally and up-to-date (that is, working on one comp), then u don't need to install gulp locally every time. branches are easy since they work on the same files. tadaa. 
+### but...
+if you have all repos saved locally and up-to-date (that is, working on one comp), then u don't need to install gulp locally every time. branches are easy since they work on the same files. tadaa.
