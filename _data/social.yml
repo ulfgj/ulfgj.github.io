@@ -17,7 +17,7 @@
   row: 1
 
 - name: linkedIn
-  url: http://www.linkedin.com/profile/view?id=316372158
+  url: https://www.linkedin.com/in/ulf-gjerdingen-8a6b5189
   image: /images/linkedin.png
   image_white: images/linkedIn_white.png
   row: 1
@@ -43,5 +43,11 @@
 - name: rss
   url: atom.xml
   image: /images/rss.png
+  image_white: images/rss_white.png
+  row: 2
+
+- name: spotify
+  url: https://open.spotify.com/artist/4NlQ3LwcyZpB9UQAlKUI4a
+  image: /images/spotify.png
   image_white: images/rss_white.png
   row: 2
