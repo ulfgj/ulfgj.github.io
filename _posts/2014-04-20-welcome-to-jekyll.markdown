@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Shitforbrains"
+title:  "welcomez to jekyll."
 date:   2014-04-20 09:11:03
 categories: jekyll update
 ---
