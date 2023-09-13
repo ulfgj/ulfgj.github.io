@@ -19,7 +19,7 @@
 - name: linkedIn
   url: https://www.linkedin.com/in/ulf-gjerdingen-8a6b5189
   image: /images/linkedin.png
-  image_white: images/linkedIn_white.png
+  image_white: images/linkedin_white.png
   row: 1
 
 - name: youtube
