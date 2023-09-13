@@ -1,7 +1,7 @@
 ---
 layout: post
 title: how this shit works.
-date: {}
+date: 2015-04-06 10:30:15
 published: true
 ---
 
