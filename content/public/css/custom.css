@@ -45,7 +45,7 @@ img {
   top: 100%;
   left: calc(50% + 10px);
   transform: translateX(-50%) translateY(4px);
-  background: rgba(30, 30, 30, 0.9);
+  background: rgba(10, 118, 40, 0.9);
   color: #fff;
   font-family: "PT Sans", sans-serif;
   font-size: 0.7rem;
