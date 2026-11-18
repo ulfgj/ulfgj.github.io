@@ -21,12 +21,13 @@
 
 <div class="pagination">
   {% if articles_page.has_next() %}
-    <a class="pagination-item older" href="{{ SITEURL }}/{{ articles_page.next_page().url }}">Older</a>
+    <a class="pagination-item older" href="{{ SITEURL }}/{{ articles_paginator.page(articles_page.next_page_number()).url }}">Older</a>
   {% else %}
     <span class="pagination-item older">Older</span>
   {% endif %}
   {% if articles_page.has_previous() %}
-    <a class="pagination-item newer" href="{{ SITEURL }}/{{ articles_page.previous_page().url }}">Newer</a>
+    {% set prev_url = articles_paginator.page(articles_page.previous_page_number()).url %}
+    <a class="pagination-item newer" href="{{ SITEURL }}/{% if prev_url %}{{ prev_url }}{% endif %}">Newer</a>
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
