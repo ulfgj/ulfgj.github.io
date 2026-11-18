@@ -1,54 +1,113 @@
 ::selection {
-  background: #E3A232; /* WebKit/Blink Browsers */
-  color: white;
-}
-::-moz-selection {
-  background: #E3A232; /* Gecko Browsers */
+  background: #E3A232;
+  /* WebKit/Blink Browsers */
   color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
+::-moz-selection {
+  background: #E3A232;
+  /* Gecko Browsers */
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Libre Baskerville', serif !important;
 }
 
 img {
   border-radius: 0;
 }
+
 .container {
   position: relative;
 }
+
 .social {
-  /*float: left;*/
   position: absolute;
   top: 0;
   right: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
 }
-.social a {
-    display: inline-block;
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none !important;
 }
-.social img {
-  margin-left: 20px;
-  opacity:.5;
-  -moz-transition: all .25s ease-in-out;
-  -webkit-transition: all .25s ease-in-out;
+
+.social-link img {
+  opacity: .5;
   transition: all .25s ease-in-out;
 }
-.social a:hover img {
-  opacity:1;
-  -webkit-transform: rotate(-12deg);
+
+.social-text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 0.62rem;
+  color: #999;
+  margin-top: 3px;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  transition: color .25s ease-in-out;
+}
+
+.social-link:hover img {
+  opacity: 1;
   transform: rotate(-12deg);
 }
-.social-sidebar-nav { display: none; }
-.social-sidebar { text-align: center; margin: 0 0 0 0; min-height: 16px; padding-left: 0;}
-.social-sidebar:first-of-type { margin-top: 20px;}
-.social-sidebar li { display: inline-block; margin-right: 16px; }
-.social-sidebar li:last-of-type { margin-right: 0; }
-.social-sidebar a img { width: 75%;}
 
-.sidebar-extras img { margin: 25px auto 0; }
+.social-link:hover .social-text {
+  color: #333;
+}
+
+.social-sidebar-nav {
+  display: none;
+}
+
+.social-sidebar {
+  text-align: center;
+  margin: 0 0 0 0;
+  min-height: 16px;
+  padding-left: 0;
+}
+
+.social-sidebar:first-of-type {
+  margin-top: 20px;
+}
+
+.social-sidebar li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.social-sidebar li:last-of-type {
+  margin-right: 0;
+}
+
+.social-sidebar a img {
+  width: 75%;
+}
+
+.sidebar-extras img {
+  margin: 25px auto 0;
+}
 
 @media (max-width: 48em) {
-  .social             { display: none; }
-  .social-sidebar-nav { display: block; }
+  .social {
+    display: none;
+  }
+
+  .social-sidebar-nav {
+    display: block;
+  }
+
   /*.sidebar-extras img { margin-top: 0; }*/
 }
