@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} &middot; {{ SITENAME }}{% endblock title %}
+
+{% block content %}
+<div class="post">
+  <h1 class="post-title">{{ article.title }}</h1>
+  <span class="post-date">{{ article.date.strftime('%d %b %Y') }}</span>
+  {{ article.content }}
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% set count = namespace(value=0) %}
+    {% for r_post in articles %}
+      {% if r_post != article and count.value < 3 %}
+        {% set count.value = count.value + 1 %}
+        <li>
+          <h3>
+            <a href="{{ SITEURL }}/{{ r_post.url }}">
+              {{ r_post.title }}
+              <small>{{ r_post.date.strftime('%d %b %Y') }}</small>
+            </a>
+          </h3>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+{% endblock content %}

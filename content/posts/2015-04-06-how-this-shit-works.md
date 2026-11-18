@@ -1,10 +1,6 @@
----
-layout: post
-title: how this shit works.
-date: 2015-04-06 10:30:15
-published: true
----
-
+Title: how this shit works.
+Date: 2015-04-06 10:30:15
+Slug: how-this-shit-works
 
 ## so... basically this is it:
 - make sure u have `node_modules` in your `.gitignore`

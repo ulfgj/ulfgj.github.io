@@ -1,3 +1,12 @@
+# Pelican
+output/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+cache/
+
 # Ignore docs files
 _gh_pages
 _site

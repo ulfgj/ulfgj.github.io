@@ -1,9 +1,8 @@
----
-layout: post
-title:  "my own rake tasks for faster post creation"
-date:   2015-05-17 21:35:30
-categories: jekyll update
----
+Title: my own rake tasks for faster post creation
+Date: 2015-05-17 21:35:30
+Slug: my-own-rake-tasks-for-faster-post-creation
+Category: jekyll update
+Tags: jekyll, update
 
 seems i got it too work. i needed a faster way to create posts with a simple command on the command line: `rake post["title"]`
 

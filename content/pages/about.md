@@ -1,7 +1,6 @@
----
-layout: page
-title: about
----
+Title: about
+Slug: about
+Date: 2014-04-20
 
 <p class="message">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!

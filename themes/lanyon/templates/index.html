@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} &middot; {{ TAGLINE }}{% endblock title %}
+
+{% block content %}
+<div class="posts">
+  {% for article in articles_page.object_list %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ SITEURL }}/{{ article.url }}">
+        {{ article.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ article.date.strftime('%d %b %Y') }}</span>
+
+    {{ article.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if articles_page.has_next() %}
+    <a class="pagination-item older" href="{{ SITEURL }}/{{ articles_page.next_page().url }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if articles_page.has_previous() %}
+    <a class="pagination-item newer" href="{{ SITEURL }}/{{ articles_page.previous_page().url }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+{% endblock content %}
