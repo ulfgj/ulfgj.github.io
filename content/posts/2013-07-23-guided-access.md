@@ -6,6 +6,6 @@ Tags:
 
 for iOS6 is just what i needed. it locks the Home button so the kid can’t get out to the desktop deleting all the apps i have. brilliant.
 
-u can find it under Settings > General > Accessability
+u can find it under Settings > General > Accessibility
 
 wohoo!
