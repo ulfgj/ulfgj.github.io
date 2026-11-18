@@ -6,4 +6,4 @@ Tags:
 
 after a gig with the Sunshine Remedy. love the place. clean, sunny and friendly.
 
-[![20130714-185826.jpg]({static}/images/wp/20130714-185826.jpg)](https://ulfgj.wordpress.com/wp-content/uploads/2013/07/20130714-185826.jpg)
+![20130714-185826.jpg]({static}/images/wp/20130714-185826.jpg)
