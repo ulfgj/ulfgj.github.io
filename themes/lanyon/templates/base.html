@@ -79,9 +79,8 @@
         </h3>
         <div class="social">
           {% for item in SOCIAL %}
-            <a href="{{ item.url }}" target="_blank" class="social-link" aria-label="{{ item.name }}">
-              <img src="{{ SITEURL }}{{ item.image }}" alt="{{ item.name }}" width="24" height="24">
-              <span class="social-text">{{ item.name }}</span>
+            <a href="{{ item.url }}" target="_blank" data-tooltip="{{ item.name }}" aria-label="{{ item.name }}">
+              <img src="{{ SITEURL }}{{ item.image }}" alt="{{ item.name }}" width="32" height="32">
             </a>
           {% endfor %}
         </div>
