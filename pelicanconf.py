@@ -63,6 +63,10 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
 }
 
+# Plugins
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['external_links']
+
 # Markdown Configuration
 MARKDOWN = {
     'extension_configs': {
