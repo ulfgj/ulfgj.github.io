@@ -27,6 +27,17 @@ h6 {
   letter-spacing: -0.01em;
 }
 
+.post h2,
+.page h2 {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-style: italic;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+
 img {
   border-radius: 0;
 }
